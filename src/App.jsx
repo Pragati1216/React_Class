@@ -8,6 +8,8 @@ import Table from './Component/table.jsx';
 import Basic from './new.jsx';
 import Class2 from './Component/Class/class2.jsx';
 import Lifecycle from './Component/Function/Lifecycle.jsx';
+import State from './Component/Function/Hooks.jsx';
+import Task from './Component/Function/Task.jsx';
 
 //  in react component  is reuseble ,independant piece of code UI, that can include html ,css ,js logic.
 
@@ -23,7 +25,10 @@ function App() {
         <Basic/>
         <Class2/>  */}
 
-        <Lifecycle/>
+        {/* <Lifecycle/> */}
+         {/* <State/> */}
+
+         <Task/>
       
     </>
   )
